@@ -1,0 +1,8 @@
+(coq.extraction
+ (prelude e)
+ (extracted_modules Datatypes Nat a)
+ (theories mytheory))
+
+(executable
+ (name f)
+ (flags :standard -w A-33-44))

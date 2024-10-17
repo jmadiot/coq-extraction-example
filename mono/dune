@@ -1,0 +1,7 @@
+(coq.extraction
+ (prelude b)
+ (extracted_modules c)
+ (theories mytheory))
+
+(executable
+ (name d))
